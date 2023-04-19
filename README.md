@@ -2,14 +2,22 @@
 
 # Kode 1:
 sc: singkatan dari Spark Context, objek utama yang digunakan untuk berinteraksi dengan Spark.
+
 accumulator: variabel yang dapat diakses oleh semua tugas pada node yang sama, digunakan untuk melakukan agregasi.
+
 parallelize: method untuk membuat RDD (Resilient Distributed Dataset) dari koleksi data pada driver program.
+
 lambda: fungsi anonim yang dapat digunakan untuk melakukan operasi pada RDD.
+
 value: method untuk mengakses nilai yang disimpan pada variabel yang terhubung ke RDD.
+
 # Kode 2:
-broadcast: method untuk mendistribusikan variabel yang dapat diakses oleh semua tugas pada node yang sama.
+broadcast: mendistribusikan variabel yang dapat diakses oleh semua tugas pada node yang sama.
+
 list: tipe data yang menyimpan kumpulan nilai.
-range: method untuk membuat urutan bilangan bulat.
+
+range:  membuat urutan bilangan bulat.
+
 # Kode 3:
 textFile: method untuk membaca file teks dan membuat RDD berisi baris-baris teks.
 filter: method untuk memfilter data berdasarkan suatu kondisi dan mengembalikan RDD yang terdiri dari data yang lolos filter.
